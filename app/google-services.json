@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314442445154",
+    "project_id": "wiku-cafe1212",
+    "storage_bucket": "wiku-cafe1212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314442445154:android:a7ba88f736e7d01589bc3b",
+        "android_client_info": {
+          "package_name": "com.example.wikucafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314442445154-hue8pcogchpo961mvp1rua9b689gdqj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSBKi1f9-bNgWHZ4Eoor6n6GupM96RKvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314442445154-hue8pcogchpo961mvp1rua9b689gdqj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

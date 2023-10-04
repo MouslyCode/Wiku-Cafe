@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+
+        <TextView
+            android:id="@+id/tv_signup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/blackmid"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textSize="40sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Name"
+            android:fontFamily="@font/regular"
+            android:textSize="16sp"
+            android:background="@color/white"
+            android:imeOptions="actionNext"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Username"
+            android:textSize="16sp"
+            android:fontFamily="@font/regular"
+            android:background="@color/white"
+            android:imeOptions="actionNext"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/edt_role"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/role"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/blackmid" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edt_passwrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:fontFamily="@font/regular"
+            android:textSize="16sp"
+            android:background="@color/white"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_signUpRil"
+        android:layout_width="@dimen/button_log_sign"
+        android:layout_height="wrap_content"
+        android:hint="Sign Up"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/medium"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/shape_button_rounded"
+        app:backgroundTint="@null"
+        />
+
+
+</LinearLayout>

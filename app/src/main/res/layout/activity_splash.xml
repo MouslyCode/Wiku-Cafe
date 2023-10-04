@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/tv_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WIKU"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/bold"
+        android:textSize="@dimen/splash_screen_title_size"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_appname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CAFE"
+        android:textColor="@color/blackmid"
+        android:fontFamily="@font/bold"
+        android:textSize="@dimen/splash_screen_title_size"
+        android:textStyle="bold"/>
+
+</LinearLayout>
